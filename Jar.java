@@ -17,7 +17,7 @@ public class Jar {
   
   public int generateAnswer() {
     Random random = new Random();
-    answer = random.nextInt(maxItem);
+    answer = random.nextInt(maxItem - 1) + 1;
     this.answer = answer;
     return answer;
   }
